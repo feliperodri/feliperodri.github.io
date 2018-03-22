@@ -1,0 +1,234 @@
+% LaTeX Curriculum Vitae Template
+%
+% Copyright (C) 2004-2009 Jason Blevins <jrblevin@sdf.lonestar.org>
+% http://jblevins.org/projects/cv-template/
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely. No attribution is
+% required in any resulting documents. I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+
+\documentclass[letterpaper]{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+
+% Comment the following lines to use the default Computer Modern font
+% instead of the Palatino font provided by the mathpazo package.
+% Remove the 'osf' bit if you don't like the old style figures.
+\usepackage[T1]{fontenc}
+\usepackage[sc,osf]{mathpazo}
+
+\def\name{Felipe R. Monteiro}
+
+% Replace this with a link to your CV if you like, or set it empty
+% (as in \def\footerlink{}) to remove the link in the footer:
+\def\footerlink{https://www.linkedin.com/in/felipe-r-monteiro-91643157/}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = cyan,
+  pdfauthor = {\name},
+  pdfkeywords = {computer science, engineering},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={6.5in, 8.5in},
+  left=1.0in,
+  top=1.25in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+  }
+}{
+  \end{list}
+}
+
+\begin{document}
+
+% Place name at left
+{\huge \name}
+
+% Alternatively, print name centered and bold:
+%\centerline{\huge \bf \name}
+
+\vspace{0.25in}
+
+\begin{minipage}{0.45\linewidth}
+  \href{http://eldorado.org.br/}{Eldorado Institute} \\
+  The Office Intelligent Building \\
+  315 Av. M\'ario Ypiranga, 69057-070 \\
+  Manaus, Amazonas, Brazil
+\end{minipage}
+\hfill
+\begin{minipage}{0.45\linewidth}
+  \begin{tabular}{ll}
+    Phone: & +55 92 98194-3154 \\
+    Email: & {\tt felipemonteiro@ufam.edu.br} \\
+    LinkedIn: & \href{https://www.linkedin.com/in/felipe-r-monteiro-91643157/}{\tt Felipe R. Monteiro} \\
+    Webpage: & \href{https://feliperodri.github.io}{\tt https://feliperodri.github.io} \\
+  \end{tabular}
+\end{minipage}
+
+
+\section*{Personal}
+
+Felipe R. Monteiro is currently a Software Engineer at the Eldorado Institute and is pursuing a Master of Computer Science degree at the Federal University of Amazonas (UFAM). He earned his bachelor's degree in Computer Engineering from UFAM and he was awarded the Science without Borders scholarship, which has sponsored his studies in the Computer Science course at the Goldsmiths University of London, in 2013-2014. He has worked on 7 research and development (R\&D) projects and his main experiences are in formal verification, model checking, and software engineering. His most recent work implements bounded model checking based on satisfiability modulo theories to handle verification of C++ programs.
+
+\section*{Education}
+
+\begin{itemize}
+  \item {\bf B.Eng. Computer Engineering}, Federal University of Amazonas, 2011 -- 2017.
+
+  \item {\bf Exchange Program in Computer Science}, Goldsmiths University of London, 2013 -- 2014.
+
+  \item {\bf Technical in Software Programming}, National Service of Industrial Learning, 2010 -- 2011.
+\end{itemize}
+
+
+\section*{Professional Experience}
+
+    \begin{enumerate}
+         \item{{\bf Software Engineer} at Eldorado Institute, 01/2018 -- Currently}
+      \begin{itemize}
+        \item{\textendash} {Research on battery management for Android-based smartphones;}
+        \item{\textendash} {Programming tasks including enhancements, maintenance and testing in Android applications.}
+        \item{\textendash} \href{http://eldorado.org.br/}{Eldorado Institute}
+      \end{itemize}
+     \item{{\bf Research Fellow and Developer} at Electronic and Information Research Center, 10/2011 -- 10/2017}
+      \begin{itemize}
+        \item{\textendash} {Research on formal verification of digital systems (\href{http://www.dsverifier.org/}{DSVerifier})}
+        \item{\textendash} {Research on model checking of C++ programs based on the Qt framework (\href{http://www.esbmc/qtom/}{QtOM})}
+        \item{\textendash} {Research on model checking of CUDA-based applications (\href{http://www.esbmc/gpu/}{ESBMC-GPU})}
+        \item{\textendash} {Programming tasks including enhancements, maintenance and testing (C/C++).}
+        \item{\textendash} \href{https://ssvlab.github.io}{Systems \& Software Verification Laboratory}
+      \end{itemize}
+      \item{{\bf Google Summer of Code Student} at Checker Framework, 06/2017 -- 08/2017 ({\it sponsored by Google})} 
+      \begin{itemize}
+        \item{\textendash} {Research on whole-program inference (\href{https://checkerframework.org/}{Checker Framework})}
+        \item{\textendash} {Programming tasks including enhancements, maintenance and testing (Java).}
+        \item{\textendash} \href{https://summerofcode.withgoogle.com/archive/2017/projects/6689181245898752/}{Google Summer of Code 2017}
+      \end{itemize}
+      \item{{\bf Internship} at Samsung Electronics, 04/2015 -- 01/2016}
+      \begin{itemize}
+        \item{\textendash} {Mobile application development (Android)}
+        \item{\textendash} {Programming tasks including enhancements, maintenance and testing (Java).}
+        \item{\textendash} {Led, architected and participated in the design, testing and deployment of an Android application and related components. In addition, participated as scrum master.}
+      \end{itemize}
+      \item{{\bf Research Fellow and Developer} at \href{http://www.indt.org.br}{Institute of Technology Development (INdT)}, 11/2011 -- 04/2013}
+            \begin{itemize}
+        \item{\textendash} {Research on formal verification of C++ programs using SMT-based BMC (\href{http://www.esbmc/}{ESBMC++})}
+        \item{\textendash} {Programming tasks including enhancements, maintenance and testing (C/C++).}
+        \item{\textendash} \href{https://ssvlab.github.io}{Systems \& Software Verification Laboratory}
+      \end{itemize}
+      \item{{\bf Research Fellow} at Institute of Computing, 04/2011 -- 12/2011}
+            \begin{itemize}
+        \item{\textendash} {Research on assistive technology for autistic children}
+        \item{\textendash} {Usability and semiotic engineering of human-computer interaction}
+        \item{\textendash} {Laboratory of Intelligent Systems}
+      \end{itemize}
+    \end{enumerate}
+    
+\section*{Publications}
+
+\subsection*{Journal Articles}
+
+\begin{itemize}
+\item {\bf F. R Monteiro}, E. H. da S. Alves, I. S. da Silva, H. I. Ismail, L. C. Cordeiro, E. B. de Lima Filho. \href{http://www.sciencedirect.com/science/article/pii/S0167642317301934}{{\bf ESBMC-GPU A Context-Bounded Model Checking Tool to Verify CUDA Programs}}, Science of Computer Programming (2018). doi:$10.1016/j.scico.2017.09.005$.
+
+\item {\bf F. R. Monteiro}, F. A. P. Janu\'{a}rio, L. C. Cordeiro, E. B. de Lima Filho. \href{https://dl.acm.org/citation.cfm?id=3127367}{{\bf BMCLua: A Translator for Model Checking Lua Programs}}, ACM SIGSOFT Software Engineering Notes. 42 (2017) 1 -- 10. doi:$10.1145/3127360.3127367$.
+
+\item {\bf F. R. Monteiro}, M. A. P. Garcia, L. C. Cordeiro, E. B. de Lima Filho. \href{http://onlinelibrary.wiley.com/doi/10.1002/stvr.1632/full}{{\bf Bounded Model Checking of C++ programs based on the Qt cross-platform framework}}, Journal of Software Testing, Verification and Reliability. 27 (2017) e1632 -- n/a. doi:$10.1002/stvr.1632$.
+
+\item P. Pereira, H. Albuquerque, I. da Silva, H. Marques, {\bf F. R. Monteiro}, R. Ferreira, L. C. Cordeiro. \href{http://onlinelibrary.wiley.com/doi/10.1002/cpe.3934/full}{{\bf SMT-based Context-Bounded Model Checking for CUDA Programs}}, Journal of Concurrency and Computation: Practice and Experience (2016) doi:$10.1002/cpe.3934$.
+
+\end{itemize}
+
+\subsection*{Proceedings}
+
+\begin{itemize}
+  
+    \item {\bf F. R. Monteiro}. \href{http://dl.acm.org/citation.cfm?id=2983979}{{\bf Bounded model checking of state-space digital systems: the impact of finite word-length effects on the implementation of fixed-point digital controllers based on state-space modeling}},
+  24$^{th}$ ACM SIGSOFT International Symposium on Foundations of Software Engineering, 2016.
+  
+  \item M. Garcia, {\bf F. R. Monteiro}, L. C. Cordeiro, E. B. de Lima Filho. \href{http://link.springer.com/chapter/10.1007/978-3-319-32582-8_6}{{\bf ESBMC$^{QtOM}$: A Bounded Model Checking Tool to Verify Qt Applications}},
+  Model Checking Software. SPIN 2016. Lecture Notes in Computer Science, vol 9641. Springer, 2016.
+
+  \item {\bf F. R. Monteiro}, P. A. Pereira, L. C. Cordeiro, C. F. F. Costa Filho, M. G. F. Costa. \href{http://ieeexplore.ieee.org/abstract/document/7757421/}{{\bf Complementary training programme for electrical and computer engineering students through an industrial-academic collaboration}},
+  IEEE Frontiers in Education Conference, 2016.
+  
+    \item {\bf F. R. Monteiro}, L. C. Cordeiro, E. B. de Lima Filho. \href{http://ieeexplore.ieee.org/abstract/document/7398699/}{{\bf Bounded model checking of C++ programs based on the Qt framework}},
+  IEEE 4$^{th}$ Global Conference on Consumer Electronics, 2015.
+
+    \item {\bf F. R. Monteiro}, L. C. Cordeiro, E. B. de Lima Filho. \href{http://ufam-automation.net/lucascordeiro/images/papers/encosis2015-sousa.pdf}{{\bf {\it Verificação de Programas C++ Baseados no Framework Multiplataforma Qt}}},
+  {\it Encontro Regional de Computação e Sistemas de Informação}, 2015.
+    
+  \item M. Ramalho, M. Freitas, {\bf F. R. Monteiro}, H. Marques, L. C. Cordeiro, B. Fischer. \href{http://ieeexplore.ieee.org/abstract/document/6601583/}{{\bf SMT-based bounded model checking of C++ programs}},
+  20$^{th}$ IEEE International Conference and Workshops on the Engineering of Computer Based Systems, 2013.
+
+    \item {\bf F. R. Monteiro}, E. A. B. Costa, T. H. C. de Castro. \href{http://www.br-ie.org/pub/index.php/sbie/article/view/1806}{{\bf {\it WorldTour: Software para Suporte no Ensino de Crianças Autistas}}},
+  XXIII Brazilian Symposium on Computers in Education, 2012.
+    
+    \item {\bf F. R. Monteiro}, T. H. C. de Castro. \href{http://ieeexplore.ieee.org/abstract/document/6340181/}{{\bf WorldTour: Towards an Adaptive Software to Support Children with Autism in Tour Planning}},
+  IEEE 36$^{th}$ Annual Computer Software and Applications Conference, 2012.
+
+\end{itemize}
+
+\section*{Accomplishments}
+\begin{itemize}
+  \item {\bf Silver Medal} at the International ACM Student Research Competition, Association for Computing Machines, 2016.
+
+  \item {\bf Best Mobile Application Award} of the $3^{rd}$ Meeting of Technological Innovation, Samsung Electronics of Amazonia Ltda., 2016.
+
+  \item {\bf 12 revised publications}. Full list available at \href{https://scholar.google.com/citations?hl=en&user=6bNQcz0AAAAJ}{Google Scholar}.
+\end{itemize}
+
+\section*{Technology Summary}
+   \begin{itemize}
+   \item{Agile Methodologies (e.g., SCRUM), Version Control (e.g., Git); ANSI-C, C++, Java, Building Tools (e.g. cmake), \LaTeX, Continuous Integration (e.g., Travis CI), MATLAB, Simulink, Python, Embedded Systems, UML, Java/Android, IDE (e.g., Eclipse) Unix, Linux, Mac OS X, Windows.}
+   \end{itemize}
+   
+\section*{Additional Skills}
+\begin{itemize}
+  \item Proficient in English.
+\end{itemize}
+
+\bigskip
+
+% Footer
+\begin{center}
+  \begin{footnotesize}
+    Last updated: \today \\
+    \href{\footerlink}{\texttt{\footerlink}}
+  \end{footnotesize}
+\end{center}
+
+\end{document}
