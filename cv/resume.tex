@@ -1,0 +1,321 @@
+% LaTeX Curriculum Vitae Template
+%
+% Copyright (C) 2004-2009 Jason Blevins <jrblevin@sdf.lonestar.org>
+% http://jblevins.org/projects/cv-template/
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely. No attribution is
+% required in any resulting documents. I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+
+\documentclass[letterpaper]{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+
+% Comment the following lines to use the default Computer Modern font
+% instead of the Palatino font provided by the mathpazo package.
+% Remove the 'osf' bit if you don't like the old style figures.
+\usepackage[T1]{fontenc}
+\usepackage[sc,osf]{mathpazo}
+
+\def\name{Felipe R. Monteiro}
+
+% Replace this with a link to your CV if you like, or set it empty
+% (as in \def\footerlink{}) to remove the link in the footer:
+\def\footerlink{https://www.linkedin.com/in/felipe-r-monteiro-91643157/}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = cyan,
+  pdfauthor = {\name},
+  pdfkeywords = {computer science, engineering},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={6.5in, 8.5in},
+  left=1.0in,
+  top=1.25in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+  }
+}{
+  \end{list}
+}
+
+\begin{document}
+
+% Place name at left
+{\huge \name}
+
+% Alternatively, print name centered and bold:
+%\centerline{\huge \bf \name}
+
+\vspace{0.25in}
+
+\begin{minipage}{0.45\linewidth}
+  \href{https://aws.amazon.com/security/provable-security/}{Amazon} \\
+  7 W 34th St \\
+ New York, NY 10001 \\
+  United States
+\end{minipage}
+\hfill
+\begin{minipage}{0.45\linewidth}
+  \begin{tabular}{ll}
+    Phone: & +1 (646) 420-2037 \\
+    Email: & {\tt rms.felipe@gmail.com} \\
+    LinkedIn: & \href{https://www.linkedin.com/in/felipe-r-monteiro-91643157/}{\tt Felipe R. Monteiro} \\
+    Webpage: & \href{https://feliperodri.github.io}{\tt https://feliperodri.github.io} \\
+  \end{tabular}
+\end{minipage}
+
+\section*{Personal}
+
+Felipe R. Monteiro is a Senior Applied Scientist with the Automated Reasoning Group at Amazon Web Services. His research combines automated reasoning and neuro-symbolic AI to improve LLM-agent reliability, with soundness as the north star. His background is in software verification of C, C++, and Rust.
+
+\section*{Education}
+
+\begin{itemize}
+  \item {\bf M.Sc. Computer Science}, Federal University of Amazonas, 2018 -- 2020.
+  \item {\bf B.Eng. Computer Engineering}, Federal University of Amazonas, 2011 -- 2018.
+  \begin{itemize}
+    \item {\bf Exchange Program in Computer Science}, Goldsmiths University of London, 2013 -- 2014.
+\end{itemize}
+\end{itemize}
+
+
+\section*{Professional Experience}
+
+    \begin{enumerate}
+      \item{{\bf Senior Applied Scientist} at Amazon Web Services, 06/2026 -- {\it present}}
+      \begin{itemize}
+        \item{\textendash} {Research combining automated reasoning and neuro-symbolic AI to improve LLM-agent reliability;}
+        \item{\textendash} \href{https://aws.amazon.com/security/provable-security/}{Automated Reasoning Group}
+      \end{itemize}
+      \item{{\bf Applied Scientist II} at Amazon Web Services, 10/2021 -- 06/2026}
+      \begin{itemize}
+        \item{\textendash} {Research on compositional techniques and model checking;}
+        \item{\textendash} {Proving memory safety and functional correctness of system-level code;}
+        \item{\textendash} {Combine automated reasoning tools with LLMs to produce formally verified programs;}
+        \item{\textendash} \href{https://aws.amazon.com/security/provable-security/}{Automated Reasoning Group}
+      \end{itemize}
+      \item{{\bf SDE-II} at Amazon Web Services, 01/2020 -- 09/2021}
+      \begin{itemize}
+        \item{\textendash} {Research on continuous software verification, static analysis, and model checking;}
+        \item{\textendash} {Proving memory safety and functional correctness of system-level code;}
+        \item{\textendash} \href{https://aws.amazon.com/security/provable-security/?sc_channel=EL&sc_campaign=Promo_2018_vid&sc_medium=YouTube&sc_content=video3507&sc_detail=CAREERS&sc_country=US}{Automated Reasoning Group}
+      \end{itemize}
+     \item{{\bf SDE-I Intern} at Amazon Web Services, 01/2019 -- 07/2019}
+      \begin{itemize}
+        \item{\textendash} {Research on software verification and model checking;}
+        \item{\textendash} {Development of a set of proof harnesses for a core c99 package, which includes cross-platform primitives, configuration, data structures, and error handling;}
+        \item{\textendash} {Programming tasks including development, maintenance, and testing open source ANSI-C projects.}
+        \item{\textendash} \href{https://aws.amazon.com/security/provable-security/?sc_channel=EL&sc_campaign=Promo_2018_vid&sc_medium=YouTube&sc_content=video3507&sc_detail=CAREERS&sc_country=US}{Automated Reasoning Group}
+      \end{itemize}
+         \item{{\bf Software Engineer} at Eldorado Institute, 01/2018 -- 01/2019}
+      \begin{itemize}
+        \item{\textendash} {Research on battery management for Android-based smartphones;}
+        \item{\textendash} {Development of an Android application to perform stress test hardware components and measure current drain;}
+        \item{\textendash} {Programming tasks including enhancements, maintenance, and testing in Android applications.}
+        \item{\textendash} \href{http://eldorado.org.br/}{Eldorado Institute}
+      \end{itemize}
+     \item{{\bf Undergraduate Research Fellow and Developer} at Electronic and Information Research Center, 10/2011 -- 10/2017}
+      \begin{itemize}
+        \item{\textendash} {Research on formal verification of digital systems (\href{http://www.dsverifier.org/}{DSVerifier});}
+        \item{\textendash} {Research on model checking of C++ programs based on the Qt framework (\href{http://www.esbmc/qtom/}{QtOM});}
+        \item{\textendash} {Research on model checking of CUDA-based applications (\href{http://www.esbmc/gpu/}{ESBMC-GPU});}
+        \item{\textendash} {Programming tasks including enhancements, maintenance, and testing (C/C++).}
+        \item{\textendash} \href{https://ssvlab.github.io}{Systems \& Software Verification Laboratory}
+      \end{itemize}
+      \item{{\bf Google Summer of Code Intern} at University of Washington, 06/2017 -- 08/2017 ({\it sponsored by Google})} 
+      \begin{itemize}
+        \item{\textendash} {Research on whole-program inference (\href{https://checkerframework.org/}{Checker Framework});}
+        \item{\textendash} {Programming tasks including enhancements, maintenance, and testing (Java);}
+        \item{\textendash} \href{https://summerofcode.withgoogle.com/archive/2017/projects/6689181245898752/}{Google Summer of Code 2017}
+      \end{itemize}
+      \item{{\bf Undergraduate Research Fellow} at Samsung Electronics, 04/2015 -- 01/2016}
+      \begin{itemize}
+        \item{\textendash} {Mobile application development (Android);}
+        \item{\textendash} {Programming tasks including enhancements, maintenance, and testing (Java);}
+        \item{\textendash} {Led, architected and participated in the design, testing, and deployment of an Android application and related components. Also participated as Scrum Master.}
+      \end{itemize}
+      \item{{\bf Undergraduate Research Fellow} at \href{http://www.indt.org.br}{Institute of Technology Development (INdT)}, 11/2011 -- 04/2013}
+            \begin{itemize}
+        \item{\textendash} {Research on formal verification of C++ programs using SMT-based BMC (\href{http://www.esbmc/}{ESBMC++});}
+        \item{\textendash} {Programming tasks including enhancements, maintenance, and testing (C/C++).}
+        \item{\textendash} \href{https://ssvlab.github.io}{Systems \& Software Verification Laboratory}
+      \end{itemize}
+      \item{{\bf Undergraduate Research Fellow} at Institute of Computing, 04/2011 -- 12/2011}
+            \begin{itemize}
+        \item{\textendash} {Research on assistive technology for autistic children;}
+        \item{\textendash} {Usability and semiotic engineering of human-computer interaction;}
+        \item{\textendash} {Laboratory of Intelligent Systems.}
+      \end{itemize}
+    \end{enumerate}
+    
+\section*{Publications}
+
+{\bf 21 revised publications and h-index 13}. Full list available at \href{https://scholar.google.com/citations?hl=en&user=6bNQcz0AAAAJ}{Google Scholar} and \href{https://dblp.uni-trier.de/pers/hd/m/Monteiro:Felipe_R=}{DBLP}.
+
+\subsection*{Journal Articles}
+
+\begin{itemize}
+
+\item {\bf Monteiro, F. R.}, Gadelha, M. R., and Cordeiro, L. C. \href{https://onlinelibrary.wiley.com/doi/pdf/10.1002/stvr.1793}{{\bf Model Checking C++ Programs}}, Softw Test Verif Reliab.2022;32:e1793.
+
+\item Chong, N., Cook, B., Kallas, K., Khazem, K., {\bf Monteiro, F. R.}, Schwartz-Narbonne, D., Tasiran, S., Tautschnig, M., Tuttle, M. R. \href{https://onlinelibrary.wiley.com/doi/pdf/10.1002/spe.2949}{{\bf Code-Level Model Checking in the Software Development Workflow at Amazon Web Services}}, Softw: Pract Exper. 2021;51:772–797.
+
+\item {\bf F. R Monteiro}, E. H. da S. Alves, I. S. da Silva, H. I. Ismail, L. C. Cordeiro, E. B. de Lima Filho. \href{http://www.sciencedirect.com/science/article/pii/S0167642317301934}{{\bf ESBMC-GPU A Context-Bounded Model Checking Tool to Verify CUDA Programs}}, Science of Computer Programming (2018). doi:$10.1016/j.scico.2017.09.005$.
+
+\item {\bf F. R. Monteiro}, F. A. P. Janu\'{a}rio, L. C. Cordeiro, E. B. de Lima Filho. \href{https://dl.acm.org/citation.cfm?id=3127367}{{\bf BMCLua: A Translator for Model Checking Lua Programs}}, ACM SIGSOFT Software Engineering Notes. 42 (2017) 1 -- 10. doi:$10.1145/3127360.3127367$.
+
+\item {\bf F. R. Monteiro}, M. A. P. Garcia, L. C. Cordeiro, E. B. de Lima Filho. \href{http://onlinelibrary.wiley.com/doi/10.1002/stvr.1632/full}{{\bf Bounded Model Checking of C++ programs based on the Qt cross-platform framework}}, Journal of Software Testing, Verification and Reliability. 27 (2017) e1632 -- n/a. doi:$10.1002/stvr.1632$.
+
+\item P. Pereira, H. Albuquerque, I. da Silva, H. Marques, {\bf F. R. Monteiro}, R. Ferreira, L. C. Cordeiro. \href{http://onlinelibrary.wiley.com/doi/10.1002/cpe.3934/full}{{\bf SMT-based Context-Bounded Model Checking for CUDA Programs}}, Journal of Concurrency and Computation: Practice and Experience (2016) doi:$10.1002/cpe.3934$.
+
+\end{itemize}
+
+\subsection*{Proceedings}
+
+\begin{itemize}   
+    \item {\bf F. R. Monteiro}, M. R. Gadelha, and L. C. Cordeiro. \href{https://www.research.manchester.ac.uk/portal/en/publications/summary-of-model-checking-c-programs(f4b1fd51-76a1-42bb-87b0-4c30b2148d3a).html}{{\bf Summary of Model Checking C++ Programs}},
+   $15^{th}$ IEEE International Conference on Software Testing, Verification and Validation (ICST), 2022.
+ 
+    \item M. R. Gadelha, R. Menezes, {\bf F. R. Monteiro}, L. C. Cordeiro, and D. A. Nicole. \href{https://test-comp.sosy-lab.org/2020/}{{\bf ESBMC: Scalable and Precise Test Generation based on the Floating-Point Theory (Competition Contribution)}},
+   $23^{rd}$ International Conference on Fundamental Approaches to Software Engineering (FASE), 2020.
+
+    \item Chong, N., Cook, B., Kallas, K., Khazem, K., {\bf Monteiro, F. R.}, Schwartz-Narbonne, D., Tasiran, S., Tautschnig, M., Tuttle, M. R. \href{https://dl.acm.org/doi/pdf/10.1145/3377813.3381347}{{\bf Code-Level Model Checking in the Software Development Workflow}},
+   $42^{rd}$ International Conference on Software Engineering (ICSE), 2020.
+   
+    \item {\bf F. R. Monteiro}, M. R. Gadelha, and L. C. Cordeiro. \href{https://staticanalysis.org/tapas2019/talks/tapas19-pre.pdf}{{\bf Boost the Impact of Continuous Formal Verification in Industry}},
+   $10^{th}$ Workshop on Tools for Automatic Program Analysis (TAPAS), 2019.
+ 
+    \item M. R. Gadelha, {\bf F. R. Monteiro}, L. C. Cordeiro, D. A. Nicole. \href{https://link.springer.com/chapter/10.1007/978-3-030-17502-3_15}{{\bf ESBMC v6.0: Verifying C Programs Using {\emph k}-Induction and Invariant Inference}},
+   $25^{th}$ International Conference on Tools and Algorithms for the Construction and Analysis of Systems (TACAS), 2019.
+   
+    \item M. R. Gadelha, {\bf F. R. Monteiro}, L. C. Cordeiro, D. A. Nicole. \href{https://ssvlab.github.io/lucasccordeiro/papers/fse2018.pdf}{{\bf Towards Counterexample-guided {\emph k}-Induction for Fast Bug Detection}},
+   ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE), 2018.
+  
+    \item M. R. Gadelha, {\bf F. R. Monteiro}, J. Morse, L. C. Cordeiro, B. Fisher, D. A. Nicole. \href{https://ssvlab.github.io/lucasccordeiro/papers/ase2018.pdf}{{\bf ESBMC v5.0 - An Industrial-Strength C Model Checker}},
+  $33^{rd}$ IEEE/ACM International Conference on Automated Software Engineering, 2018.  
+        
+    \item {\bf F. R. Monteiro}, M. A. P. Garcia, L. C. Cordeiro, E. B. de Lima Filho. \href{https://www.researchgate.net/publication/326657978_Bounded_Model_Checking_of_C_Programs_based_on_the_Qt_Cross-Platform_Framework_Journal-First_Abstract}{{\bf Bounded Model Checking of C++ Programs, based on the Qt Cross-Platform Framework: Journal-First Abstract}},
+  $33^{rd}$ IEEE/ACM International Conference on Automated Software Engineering, 2018.  
+  
+    \item {\bf F. R. Monteiro}. \href{http://dl.acm.org/citation.cfm?id=2983979}{{\bf Bounded model checking of state-space digital systems: the impact of finite word-length effects on the implementation of fixed-point digital controllers based on state-space modeling}},
+  24$^{th}$ ACM SIGSOFT International Symposium on Foundations of Software Engineering, 2016.
+  
+  \item M. Garcia, {\bf F. R. Monteiro}, L. C. Cordeiro, E. B. de Lima Filho. \href{http://link.springer.com/chapter/10.1007/978-3-319-32582-8_6}{{\bf ESBMC$^{\bf QtOM}$: A Bounded Model Checking Tool to Verify Qt Applications}},
+  Model Checking Software. SPIN 2016. Lecture Notes in Computer Science, vol 9641. Springer, 2016.
+
+  \item {\bf F. R. Monteiro}, P. A. Pereira, L. C. Cordeiro, C. F. F. Costa Filho, M. G. F. Costa. \href{http://ieeexplore.ieee.org/abstract/document/7757421/}{{\bf Complementary training programme for electrical and computer engineering students through an industrial-academic collaboration}},
+  IEEE Frontiers in Education Conference, 2016.
+  
+    \item {\bf F. R. Monteiro}, L. C. Cordeiro, E. B. de Lima Filho. \href{http://ieeexplore.ieee.org/abstract/document/7398699/}{{\bf Bounded model checking of C++ programs based on the Qt framework}},
+  IEEE 4$^{th}$ Global Conference on Consumer Electronics, 2015.
+    
+  \item M. Ramalho, M. Freitas, {\bf F. R. Monteiro}, H. Marques, L. C. Cordeiro, B. Fischer. \href{http://ieeexplore.ieee.org/abstract/document/6601583/}{{\bf SMT-based bounded model checking of C++ programs}},
+  20$^{th}$ IEEE International Conference and Workshops on the Engineering of Computer Based Systems, 2013.
+
+    \item {\bf F. R. Monteiro}, E. A. B. Costa, T. H. C. de Castro. \href{http://www.br-ie.org/pub/index.php/sbie/article/view/1806}{{\bf WorldTour: Software para Suporte no Ensino de Crian{\c c}as Autistas}},
+  XXIII Brazilian Symposium on Computers in Education, 2012.
+    
+    \item {\bf F. R. Monteiro}, T. H. C. de Castro. \href{http://ieeexplore.ieee.org/abstract/document/6340181/}{{\bf WorldTour: Towards an Adaptive Software to Support Children with Autism in Tour Planning}},
+  IEEE 36$^{th}$ Annual Computer Software and Applications Conference, 2012.
+
+\end{itemize}
+
+
+\section*{Services}
+\begin{itemize}
+  \item {\bf External Reviewer} of the \href{https://www.computer.org/csdl/proceedings-article/sbesc/2018/024000z015/19m3lVxurZe}{VIII Brazilian Symposium on Computing Systems Engineering} (SBESC), 2018.
+  
+  \item {\bf Program committee / Jury} member of the \href{https://sv-comp.sosy-lab.org/2018/committee.php}{7th International Competition on Software Verification} (SV-COMP), 2018.
+  
+  \item {\bf Artifact evaluation committee} member of the \href{https://tap.sosy-lab.org/2019/committee.php}{13th International Conference on Tests and Proofs} (TAP), 2019.
+  
+  \item {\bf Reviewer} of the journal \href{https://ieeeaccess.ieee.org}{IEEE Access}, 2019.
+  
+  \item {\bf Program committee / Jury} member of the \href{https://sv-comp.sosy-lab.org/2020/committee.php}{9th International Competition on Software Verification} (SV-COMP), 2020.
+  
+  \item {\bf Program committee / Jury} member of the \href{https://sv-comp.sosy-lab.org/2021/committee.php}{10th International Competition on Software Verification} (SV-COMP), 2021.
+  
+    \item {\bf Artifact evaluation committee} member of the \href{https://2021.splashcon.org/track/splash-2021-Artifacts}{Object Oriented Programming Languages, Systems and Applications} (OOPSLA), 2021.
+    
+      \item {\bf Artifact evaluation committee} member of the \href{http://i-cav.org/2022/organization/}{34th International Conference on Computer Aided Verification} (CAV), 2022.
+      
+        \item {\bf Program committee / Jury} member of the \href{https://vmcai-2023.github.io/}{24th International Conference on Verification, Model Checking, and Abstract Interpretation} (VMCAI), 2023.
+        
+        \item {\bf Artifact evaluation committee} member of the \href{https://vmcai-2023.github.io/}{24th International Conference on Verification, Model Checking, and Abstract Interpretation} (VMCAI), 2023.
+\end{itemize}
+
+
+\section*{Awards}
+\begin{itemize}
+  \item {\bf Silver Medal} at the International ACM Student Research Competition, Association for Computing Machines, 2016.
+
+  \item {\bf Best Mobile Application Award} of the $3^{rd}$ Technological Innovation Summit, Samsung Electronics of Amazonia Ltda., 2016.
+  
+  \item {\bf Woody Bledsoe Award} at the $9^{th}$ International Joint Conference on Automated Reasoning, 2018.
+\end{itemize}
+
+
+%\section*{Technology Summary}
+%   \begin{itemize}
+%   \item{Agile Methodologies (e.g., SCRUM, Kanban, XP);}
+%   \item{Version Control (e.g., Git and Github/Gerrit);}
+%   \item{Issue tracker (e.g., Jira);}
+%   \item{Programming (e.g., ANSI-C, C++, Java, Python);}
+%   \item{APIs (e.g., UIAutomator);}
+%   \item{Building Tools (e.g. cmake, ant, and Autotools);}
+%   \item{IDE (e.g., Eclipse and Android Studio);}
+%   \item{Continuous Integration (e.g., Travis CI and GitHub Actions);}
+%   \item{MATLAB, Simulink, LabView;}
+%   \item{Embedded Systems, UML, \LaTeX;}
+%   \end{itemize}
+%   
+%\section*{Additional Skills}
+%\begin{itemize}
+%  \item Proficient in English.
+%\end{itemize}
+
+\bigskip
+
+% Footer
+\begin{center}
+  \begin{footnotesize}
+    Last updated: \today \\
+    \href{\footerlink}{\texttt{\footerlink}}
+  \end{footnotesize}
+\end{center}
+
+\end{document}
