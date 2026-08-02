@@ -1,3 +1,111 @@
 metadata:
   last_updated: '2026-08-02'
-papers: {}
+papers:
+  6bNQcz0AAAAJ:0EnyYjriUFMC:
+    citations: 7
+    title: Towards Counterexample-Guided k-Induction for Fast Bug Detection
+    year: '2018'
+  6bNQcz0AAAAJ:3fE2CSJIrl8C:
+    citations: 0
+    title: 'Beyond k-induction: Learning from Counterexamples to Bidirectionally Explore the State Space'
+    year: '2019'
+  6bNQcz0AAAAJ:4TOpqqG69KYC:
+    citations: 17
+    title: 'ESBMC: Scalable and Precise Test Generation based on the Floating-Point Theory'
+    year: '2020'
+  6bNQcz0AAAAJ:8k81kl-MbHgC:
+    citations: 94
+    title: 'ESBMC v6.0: Verifying C Programs Using k-Induction and Invariant Inference: (Competition Contribution)'
+    year: '2019'
+  6bNQcz0AAAAJ:9ZlFYXVOiuMC:
+    citations: 46
+    title: "Code\u2010level model checking in the software development workflow at Amazon web services"
+    year: '2021'
+  6bNQcz0AAAAJ:9yKSN-GCB0IC:
+    citations: 2
+    title: "Verifica\xE7\xE3o de Programas C++ Baseados no Framework Multiplataforma Qt"
+    year: '2015'
+  6bNQcz0AAAAJ:HDshCWvjkbEC:
+    citations: 0
+    title: Summary of Model Checking C++ Programs
+    year: '2022'
+  6bNQcz0AAAAJ:IWHjjKOFINEC:
+    citations: 43
+    title: Model checking C++ programs
+    year: '2022'
+  6bNQcz0AAAAJ:IjCSPb-OGe4C:
+    citations: 17
+    title: 'ESBMCQtOM: A Bounded Model Checking Tool to Verify Qt Applications'
+    year: '2016'
+  6bNQcz0AAAAJ:QIV2ME_5wuYC:
+    citations: 0
+    title: SBESC 2018
+    year: Unknown Year
+  6bNQcz0AAAAJ:RHpTSmoSYBkC:
+    citations: 1
+    title: Verifying the Rust Standard Library
+    year: '2026'
+  6bNQcz0AAAAJ:TQgYirikUcIC:
+    citations: 3
+    title: Verifying the Rust Standard Library
+    year: '2024'
+  6bNQcz0AAAAJ:Tyk-4Ss8FVUC:
+    citations: 25
+    title: "SMT\u2010based context\u2010bounded model checking for CUDA programs"
+    year: '2017'
+  6bNQcz0AAAAJ:UebtZRa9Y70C:
+    citations: 195
+    title: 'ESBMC 5.0: an industrial-strength C model checker'
+    year: '2018'
+  6bNQcz0AAAAJ:Y0pCki6q_DkC:
+    citations: 8
+    title: "Bounded model checking of state-space digital systems: The impact of finite word-length effects on the implementation of fixed-point digital controllers based on state-space \u2026"
+    year: '2016'
+  6bNQcz0AAAAJ:_FxGoFyzp5QC:
+    citations: 38
+    title: ESBMC-GPU a context-bounded model checking tool to verify CUDA programs
+    year: '2018'
+  6bNQcz0AAAAJ:_kc_bZDykSQC:
+    citations: 69
+    title: Code-Level Model Checking in the Software Development Workflow
+    year: '2020'
+  6bNQcz0AAAAJ:d1gkVwhDpl0C:
+    citations: 5
+    title: 'WorldTour: Towards an Adaptive Software to Support Children with Autism in Tour Planning'
+    year: '2012'
+  6bNQcz0AAAAJ:eQOLeE2rZwMC:
+    citations: 36
+    title: "Bounded model checking of C++ programs based on the Qt cross\u2010platform framework"
+    year: '2017'
+  6bNQcz0AAAAJ:hqOjcs7Dif8C:
+    citations: 5
+    title: Bounded model checking of C++ programs based on the Qt cross-platform framework (journal-first abstract)
+    year: '2018'
+  6bNQcz0AAAAJ:j3f4tGmQtD8C:
+    citations: 0
+    title: 'Kani: A Model Checker for Rust'
+    year: '2026'
+  6bNQcz0AAAAJ:kNdYIx-mwKoC:
+    citations: 2
+    title: Boost the impact of continuous formal verification in industry
+    year: '2019'
+  6bNQcz0AAAAJ:qjMakFHDy7sC:
+    citations: 24
+    title: Bounded Model Checking of C++ Programs Based on the Qt Framework
+    year: '2015'
+  6bNQcz0AAAAJ:u-x6o8ySG0sC:
+    citations: 29
+    title: "Worldtour: Software para suporte no ensino de crian\xE7as autistas"
+    year: '2012'
+  6bNQcz0AAAAJ:u5HHmVD_uO8C:
+    citations: 56
+    title: SMT-based bounded model checking of C++ programs
+    year: '2013'
+  6bNQcz0AAAAJ:ufrVoPGSRksC:
+    citations: 6
+    title: 'BMCLua: A translator for model checking Lua programs'
+    year: '2017'
+  6bNQcz0AAAAJ:zYLM7Y9cAGgC:
+    citations: 13
+    title: Complementary training programme for electrical and computer engineering students through an industrial-academic collaboration
+    year: '2016'
