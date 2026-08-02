@@ -1,0 +1,10 @@
+github_users:
+  - feliperodri
+
+repo_description_lines_max: 2
+
+github_repos:
+  - diffblue/cbmc
+  - esbmc/esbmc
+  - model-checking/kani
+  - model-checking/verify-rust-std
