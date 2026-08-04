@@ -6,3 +6,6 @@ _site/
 vendor/
 node_modules/
 .bundle/
+cv/*.aux
+cv/*.log
+cv/*.out
